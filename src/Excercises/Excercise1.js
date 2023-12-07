@@ -10,5 +10,6 @@ function wrapping(gifts) {
     return wrapped
 }
 
-
 console.log(wrapping(['cat', 'game', 'socks']))
+
+module.exports = wrapping

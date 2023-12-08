@@ -3,7 +3,7 @@ function isIsogram(str) {
     let result = true
 
     Array.from(str.toLowerCase()).forEach((letter) => {
-        console.log(container)
+        
         if ('aeiou'.includes(letter)) {
             if (container[letter]) {
                 result = false
